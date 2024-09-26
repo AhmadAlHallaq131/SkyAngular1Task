@@ -1,0 +1,136 @@
+/* navbar */
+
+.w.active {
+    font-weight: 900;
+    font-size: large;
+    color: #ffffff; 
+}
+
+.w {
+    color: white;
+    margin-left: 1em;
+}
+  
+.mg-r {
+    margin-right: 2.5em;
+}
+  
+.active-tab { 
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff; 
+}
+
+
+/* VacationRequests */
+
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    
+}
+
+.input-group-text {
+    background-color: white;
+    border: 1px solid #ced4da;
+    padding: 0.5rem;
+    border-radius: 25px;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-left: none;
+    padding: 0.5rem;
+    border-radius: 25px;
+}
+
+
+/* VacationCards */
+
+img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+
+/* Pagination */
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-pagination {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-flex;
+    list-style: none;
+}
+
+.custom-pagination .page-item {
+    margin: 0 2px;
+}
+
+.custom-pagination .page-link {
+    border: none;
+    background-color: transparent;
+    color: #333;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.custom-pagination .page-link.active {
+    background-color: #a5a5a5;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid #ababab;
+    width: 28px;
+    height: 28px;
+}
+
+.custom-pagination .prev,
+.custom-pagination .next {
+    color: #666;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 3px 8px;
+}
+
+.custom-pagination .page-link:hover {
+    background-color: #d3d3d3;
+    color: black;
+}
+
+
+  /* highlight */
+
+.highlight {
+    background-color: green;
+    opacity: .3;
+}
+
+
+
+
+
